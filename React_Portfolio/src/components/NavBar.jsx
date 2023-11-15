@@ -1,4 +1,6 @@
-function NavBar() {
+import React from "react"
+
+const NavBar = () => {
     return (
         <>
             <ul>
