@@ -1,0 +1,27 @@
+footer {
+    background-color: #801515;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer div:nth-child(1) {
+    margin-bottom: 18px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+}
+
+footer a img {
+    max-width: 48px;
+    transition: .25s;
+}
+
+footer a:hover img, #thecontacts div button:hover, .faux-button:hover {
+    transform: scale(1.1);
+    transition: .25s;
+}
