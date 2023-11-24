@@ -4,10 +4,10 @@ const Projects = () => {
     return (
         <>
             <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-                <li>Project 4</li>
+                <li>Challenge 1</li>
+                <li>Challenge 2</li>
+                <li>Challenge 3</li>
+                <li>Challenge 4</li>
             </ul>
         </>
     )

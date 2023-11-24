@@ -1,5 +1,3 @@
-/* FILEPATH: /C:/Users/carlo/asubootcamp/challenge_20/challenge_20_React.Portfolio/React_Portfolio/src/style/App.css */
-
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
@@ -25,6 +23,7 @@ header {
   padding: 60rem;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* added this line */
 }
 
 h1 {
@@ -33,7 +32,7 @@ h1 {
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
   color: #724343;
-  text-decoration: none
+  text-decoration: none;
 }
 
 header nav {

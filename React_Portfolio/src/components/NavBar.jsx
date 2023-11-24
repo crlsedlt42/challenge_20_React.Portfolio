@@ -14,9 +14,6 @@ const NavBar = () => {
             </p>
             <ul>
                 <li>
-                    <Link to="/aboutMe" className={location === '/aboutMe' ? 'nav-link active' : 'nav-link'}>About Me</Link>
-                </li>
-                <li>
                     <Link to="/projects" className={location === '/projects' ? 'nav-link active' : 'nav-link'}>Projects</Link>
                 </li>
                 <li>

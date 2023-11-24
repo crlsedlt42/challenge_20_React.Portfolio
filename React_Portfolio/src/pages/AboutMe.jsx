@@ -4,9 +4,9 @@ const AboutMe = () => {
     return (
         <>
             <h1>About Me</h1>
-            <img src="./assets/images/CarlosDeLaTorre.jpg" alt="Carlos E. De La Torre: Profile Pic" />
-            <h2>Carlos E. De La Torre</h2>
-            <p>
+            <img src="./public/images/Profile Pic.jpg" className="profileImg" alt="Carlos E. De La Torre: Profile Pic" />
+            <p className="abtme">
+                <h2>My Story</h2>
                 My name is Carlos Enrique De La Torre and I'm from Southern Arizona. I have an accumulation of 10 years in customer service and retail.
                 Now I'm trying to branch out by attending a Coding Boot Camp, sponsored by ASU. Initially I thought that my story into coding started in 2020 during the pandemic.
                 My motivation for taking a coding Boot Camp was to be productive outside my job while I was recovering from a kidney transplant. In 2019 was diagnosed with kidney failure and had to start dialysis. 
@@ -17,6 +17,28 @@ const AboutMe = () => {
                 I created spreadsheets for tracking my blood pressure, weight, dialysis treatments, schedules for school, traking changes in medication, fiances, workout regimes and meal plans. I was using Excel and Google Sheets to track my life but I disliked the UI.
                 I knew I wanted to create my own UI and make it more user friendly. I wanted to create a program that would take all the information I was tracking and create a report that I could share with my doctors. I wanted to create a program that would help me and others like me.
                 I'm currently working on my coding skills, learning new coding languages, and learing about photography at my local community college. Most important I'm also working on my health and trying to get back to my normal life. 
+
+                <h2>My Hobbies</h2>
+                <ul>
+                    <li>Photography</li>
+                    <li>Video Games</li>
+                    <li>Reading</li>
+                    <li>Watching Movies</li>
+                    <li>Learning New Skills</li>
+                </ul>
+
+                <h2>My Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>React</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>GraphQL</li>
+                </ul>
             </p>
         </>
     );
