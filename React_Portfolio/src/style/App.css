@@ -1,4 +1,10 @@
 /* Global styles */
+
+* {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -67,4 +73,9 @@ section h2 {
 
 section p {
   margin-bottom: 0;
+}
+
+.profileImg {
+  height: 15rem;
+  border-radius: 50%;
 }
