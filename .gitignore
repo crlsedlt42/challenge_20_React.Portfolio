@@ -131,3 +131,6 @@ dist
 
 
 -given
+
+# Local Netlify folder
+.netlify
